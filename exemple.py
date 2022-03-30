@@ -1,15 +1,13 @@
 import logging
-
 import treefiles as tf
 
-import pyctn as pk
+from pyctn.container import Ct
 
 
 def main():
-    bs = pk.Class()
-
-    log.info(bs)
-    log.debug(bs.__class__.__mro__)
+    with Ct("azeaze-ct") as ct:
+        ct.add(arg1="some data")
+        tf.dump_json(ct / "my_data.json", [1, 2, 3])
 
 
 log = logging.getLogger(__name__)
@@ -19,3 +17,7 @@ if __name__ == "__main__":
     log = tf.get_logger()
 
     main()
+    with Ct("azeaze-ct") as ct:
+        print(ct)
+        print(ct.my_data)
+        print(ct.arg1)
