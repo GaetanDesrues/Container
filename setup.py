@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyctn",
-    version="0.1.001",
+    version="0.1.002",
     author="GD",
     url="https://github.com/GaetanDesrues/Container",
     description="Description",
