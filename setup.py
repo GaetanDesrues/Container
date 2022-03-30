@@ -4,11 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="packageName",
-    version="0.1.000",
-    # author="",
-    # author_email="",
-    # url="",
+    name="pyctn",
+    version="0.1.001",
+    author="GD",
+    url="https://github.com/GaetanDesrues/Container",
     description="Description",
     long_description=long_description,
     long_description_content_type="text/markdown",

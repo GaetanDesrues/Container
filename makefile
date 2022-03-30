@@ -11,5 +11,5 @@ git :
 	git push origin master
 
 pip :
-	# pip install --upgrade packageName
-	echo "You can run: `pip install --upgrade packageName`"
+	# pip install --upgrade pyctn
+	echo "You can run: `pip install --upgrade pyctn`"

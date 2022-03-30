@@ -2,7 +2,7 @@ import logging
 
 import treefiles as tf
 
-import packageName as pk
+import pyctn as pk
 
 
 def main():
